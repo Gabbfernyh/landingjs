@@ -2,7 +2,19 @@
 
 <div align="center">
 
-![Portfolio Banner](https://via.placeholder.com/1200x300/0d6efd/ffffff?text=Gabbfernyh+Soluções+Tecnológicas)
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <style>
+    .logo-text {
+      font-family: 'Arial Black', 'Impact', sans-serif;
+      font-size: 60px;
+      font-weight: bold;
+      fill: currentColor;
+    }
+  </style>
+  <text x="50%" y="55%" dominant-baseline="central" text-anchor="middle" class="logo-text">
+    GF
+  </text>
+</svg>
 
 **Transformando ideias em soluções digitais inovadoras**
 
