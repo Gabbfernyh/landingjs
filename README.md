@@ -1,16 +1,110 @@
-# React + Vite
+# 💼 Portfolio Profissional - Gabbfernyh
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div align="center">
 
-Currently, two official plugins are available:
+![Portfolio Banner](https://via.placeholder.com/1200x300/0d6efd/ffffff?text=Gabbfernyh+Soluções+Tecnológicas)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Transformando ideias em soluções digitais inovadoras**
 
-## React Compiler
+[🌐 Ver Projeto](https://seu-portfolio.com) • [📧 Contato](mailto:contato@gabbfernyh.com)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+</div>
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Sobre o Projeto
+
+Landing page profissional desenvolvida para apresentar meu portfólio e serviços na área de tecnologia. Um projeto moderno, responsivo e otimizado, construído com React, Vite e Bootstrap.
+
+> 💡 **Nota:** Este projeto também possui uma versão desenvolvida em TypeScript para melhor tipagem e segurança de código.
+
+---
+
+## 🛠️ Tecnologias
+
+### Stack Principal
+- **React** - Biblioteca JavaScript para interfaces
+- **Vite** - Build tool moderna e rápida
+- **Bootstrap 5** - Framework CSS responsivo
+- **JavaScript ES6+** - Linguagem de programação
+
+---
+
+## 🏢 Gabbfernyh Soluções Tecnológicas
+
+### 💡 Sobre
+
+Especialista em soluções tecnológicas completas, oferecendo serviços personalizados com foco em qualidade e inovação.
+
+### ✨ Serviços
+
+#### 🌐 Desenvolvimento Web
+- Criação e manutenção de sites profissionais
+- Landing pages de alta conversão
+- Websites responsivos e otimizados
+
+#### 💻 Suporte Técnico
+- Formatação de computadores
+- Configuração e otimização de PCs
+- Diagnóstico e manutenção
+
+#### 🎨 Design
+- Design gráfico e identidade visual
+- UI/UX Design
+- Layouts responsivos
+
+### 🎯 Diferenciais
+
+✅ Qualidade e profissionalismo  
+✅ Atendimento personalizado  
+✅ Tecnologias modernas  
+✅ Preços acessíveis  
+
+---
+
+## 📱 Funcionalidades
+
+- ✨ Design moderno e profissional
+- 📱 Totalmente responsivo
+- 🎨 Animações interativas
+- 🚀 Performance otimizada
+- 📧 Formulário de contato
+- 💼 Portfólio de projetos
+- 👤 Seção sobre mim
+
+---
+
+## 🤝 Contribuindo
+
+Contribuições são sempre bem-vindas!
+
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/NovaFeature`)
+3. Commit suas mudanças (`git commit -m 'Adiciona nova feature'`)
+4. Push para a branch (`git push origin feature/NovaFeature`)
+5. Abra um Pull Request
+
+---
+
+## 📱 Contato & Redes Sociais
+
+### Gabbfernyh Soluções Tecnológicas
+
+📧 **Email:** contato@gabbfernyh.com  
+📱 **WhatsApp:** (00) 00000-0000  
+🌐 **Website:** www.gabbfernyh.com  
+💼 **LinkedIn:** /gabbfernyh  
+📷 **Instagram:** @gabbfernyh  
+🐱 **GitHub:** @gabbfernyh  
+
+---
+
+<div align="center">
+
+### 🌟 Gostou do projeto? Deixe uma estrela! ⭐
+
+**Desenvolvido com 💙 por Gabbfernyh**
+
+*Transformando código em soluções reais*
+
+</div>
