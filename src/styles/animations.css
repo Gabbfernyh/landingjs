@@ -1,0 +1,135 @@
+/* ===== ANIMATIONS ===== */
+
+/* Gradient Shift */
+@keyframes gradientShift {
+
+    0%,
+    100% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+}
+
+/* Slide Animations */
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Float Animation */
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0px) translateX(0px);
+    }
+
+    25% {
+        transform: translateY(-30px) translateX(20px);
+    }
+
+    50% {
+        transform: translateY(-50px) translateX(-20px);
+    }
+
+    75% {
+        transform: translateY(-20px) translateX(30px);
+    }
+}
+
+/* Hero Float */
+@keyframes heroFloat {
+
+    0%,
+    100% {
+        transform: translateY(0px) rotateZ(-2deg) scale(1);
+    }
+
+    25% {
+        transform: translateY(-20px) rotateZ(0deg) scale(1.02);
+    }
+
+    50% {
+        transform: translateY(-35px) rotateZ(2deg) scale(1.04);
+    }
+
+    75% {
+        transform: translateY(-15px) rotateZ(-1deg) scale(1.02);
+    }
+}
+
+/* Pulse Animation */
+@keyframes pulse {
+
+    0%,
+    100% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 0.5;
+    }
+
+    50% {
+        transform: translate(-50%, -50%) scale(1.2);
+        opacity: 0.8;
+    }
+}
+
+/* Shine Effect */
+@keyframes shine {
+    0% {
+        left: -100%;
+    }
+
+    100% {
+        left: 100%;
+    }
+}
+
+/* Scroll Bounce */
+@keyframes scrollBounce {
+
+    0%,
+    100% {
+        opacity: 0;
+        transform: translateY(0);
+    }
+
+    50% {
+        opacity: 1;
+        transform: translateY(8px);
+    }
+}
+
+/* Bounce */
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
