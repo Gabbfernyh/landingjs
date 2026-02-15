@@ -7,12 +7,23 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependencies
 node_modules
+/.pnp
+.pnp.js
+
+# Production
 dist
 dist-ssr
 *.local
+out/
 
-# Editor directories and files
+# Temporary files
+*.temp
+*.tmp
+.cache/
+
+# IDE and Editor
 .vscode/*
 !.vscode/extensions.json
 .idea
@@ -22,3 +33,38 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS files
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# IDE specific
+.eslintcache
+.stylelintcache
+
+# Build outputs
+build/
+.next/
+out/
+coverage/
+
+# Testing
+.coverage
+.nyc_output
+
+# Package manager locks (opcional, descomente se quiser)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml

@@ -3,6 +3,7 @@
 ## Tamanho Atual do Projeto
 
 ### Build Produção (Gzipped)
+
 ```
 CSS:  254.71 KB → 35.39 KB (86% redução! ✓)
 JS:   214.77 KB → 65.67 KB (69% redução! ✓)
@@ -14,15 +15,18 @@ HTML: 0.72 KB  → 0.41 KB
 ## Estratégias de Otimização Implementadas
 
 ### 1. CSS Modular ✓
+
 **Antes**: 1 arquivo CSS de 1.6 MB
 **Depois**: 5 arquivos CSS otimizados (~30 KB cada)
 
 **Benefícios:**
+
 - Separação por responsabilidade
 - Fácil de cachear
 - Possibilita lazy loading
 
 **Estrutura:**
+
 ```
 src/styles/
 ├── variables.css    (2 KB)    - CSS variables
@@ -33,6 +37,7 @@ src/styles/
 ```
 
 ### 2. Sem Frameworks Desnecessários ✓
+
 ```javascript
 ❌ Não usamos:
 - Material-UI (adicionaria 200+ KB)
@@ -46,6 +51,7 @@ src/styles/
 ```
 
 ### 3. Animações GPU-Aceleradas ✓
+
 ```css
 /* Apenas propriedades que usam GPU */
 transform: translateY(...)  ✓ Rápido
@@ -58,11 +64,14 @@ height: 300px               ✗ Lento
 ```
 
 ### 4. Imagens Otimizadas ✓
+
 **Favicon SVG em vez de PNG:**
+
 - PNG: 32x32 = 4-8 KB
 - SVG: ~1-2 KB
 
 **Ícones inline em SVG:**
+
 - Sem HTTP requests adicionais
 - Escaláveis sem qualidade
 - Coloríveis via CSS
@@ -70,6 +79,7 @@ height: 300px               ✗ Lento
 ## Técnicas de Performance
 
 ### Code Splitting
+
 ```javascript
 // Futuro: Lazy loading de componentes
 const Hero = React.lazy(() => import('./sections/Hero'))
@@ -82,6 +92,7 @@ const Services = React.lazy(() => import('./sections/Services'))
 ```
 
 ### Critical CSS
+
 ```html
 <!-- Inline CSS crítico no <head> -->
 <style>
@@ -95,6 +106,7 @@ const Services = React.lazy(() => import('./sections/Services'))
 ## Otimização de Dados por Componente
 
 ### Cards Renderização
+
 ```javascript
 // constants.js centraliza dados
 import { SERVICES, PROJECTS, TESTIMONIALS } from '@/utils/constants'
@@ -103,12 +115,14 @@ import { SERVICES, PROJECTS, TESTIMONIALS } from '@/utils/constants'
 SERVICES.map(service => <ServiceCard key={service.id} {...service} />)
 ```
 
-**Vantagem**: 
+**Vantagem**:
+
 - Dados separados da lógica
 - Fácil de atualizar/cachear
 - Possibilita API no futuro
 
 ### Memoização
+
 ```javascript
 const ServiceCard = React.memo(({ title, description }) => (
   <div className="service-card">
@@ -122,6 +136,7 @@ const ServiceCard = React.memo(({ title, description }) => (
 ## Estratégias Futuras
 
 ### 1. Image Optimization
+
 ```html
 <!-- Progressivo JPEG -->
 <picture>
@@ -135,6 +150,7 @@ const ServiceCard = React.memo(({ title, description }) => (
 ```
 
 ### 2. Service Worker (PWA)
+
 ```javascript
 // Cache agressivo de CSS/JS/Fonts
 - HTML: Network first
@@ -143,6 +159,7 @@ const ServiceCard = React.memo(({ title, description }) => (
 ```
 
 ### 3. Bundle Analysis
+
 ```bash
 npm install -D rollup-plugin-visualizer
 
@@ -151,6 +168,7 @@ npm run build:analyze
 ```
 
 ### 4. Lazy Load Sections
+
 ```javascript
 // Intersectionobserver para renderizar seções visíveis
 const observer = new IntersectionObserver((entries) => {
@@ -165,6 +183,7 @@ const observer = new IntersectionObserver((entries) => {
 ## Métricas de Performance Alvo
 
 ### Web Vitals
+
 ```
 LCP (Largest Contentful Paint):  < 2.5s   ✓
 FID (First Input Delay):         < 100ms  ✓
@@ -172,12 +191,14 @@ CLS (Cumulative Layout Shift):   < 0.1    ✓
 ```
 
 ### PageSpeed Insights
+
 - Desktop: 90+
 - Mobile: 80+
 
 ## Checklist de Otimização
 
 ### CSS
+
 - [x] Modularizado em 5 arquivos
 - [x] Variáveis CSS para reutilização
 - [x] Mobile-first approach
@@ -186,6 +207,7 @@ CLS (Cumulative Layout Shift):   < 0.1    ✓
 - [ ] Critical CSS inline
 
 ### JavaScript
+
 - [x] React 19 (versão otimizada)
 - [x] Dados em constants
 - [x] Imports seletivos
@@ -194,6 +216,7 @@ CLS (Cumulative Layout Shift):   < 0.1    ✓
 - [ ] Memoização de componentes
 
 ### Assets
+
 - [x] Favicon SVG
 - [x] Ícones inline
 - [ ] Imagens otimizadas (WebP)
@@ -201,6 +224,7 @@ CLS (Cumulative Layout Shift):   < 0.1    ✓
 - [ ] Fonts carregamento otimizado
 
 ### Network
+
 - [ ] Gzip/Brotli habilitado no servidor
 - [ ] HTTP/2 habilitado
 - [ ] Cache headers configurado
@@ -210,18 +234,21 @@ CLS (Cumulative Layout Shift):   < 0.1    ✓
 ## Ferramentas de Análise
 
 ### Lighthouse (Chrome DevTools)
+
 ```bash
 # Simular em dispositivo móvel 3G
 F12 → Lighthouse → Generate report
 ```
 
 ### WebPageTest
+
 ```
 https://www.webpagetest.org
 # Testa performance em cenários reais
 ```
 
 ### Bundle Analyzer
+
 ```bash
 npm run build:analyze
 # Visualiza tamanho dos pacotes
@@ -241,23 +268,27 @@ npm run build:analyze
 ## Próximos Passos (Roadmap)
 
 ### Fase 1: Dados (Em Progresso)
+
 - [x] Estrutura modular CSS
 - [x] constants.js criado
 - [ ] API integration pronta
 - [ ] Dados dinâmicos
 
 ### Fase 2: Performance
+
 - [ ] Code splitting
 - [ ] Image optimization
 - [ ] Lazy loading
 - [ ] Service Worker
 
 ### Fase 3: Analytics
+
 - [ ] Google Analytics
 - [ ] Performance monitoring
 - [ ] User tracking
 
 ### Fase 4: SEO
+
 - [ ] Meta tags dinâmicas
 - [ ] Open Graph
 - [ ] Structured data (JSON-LD)

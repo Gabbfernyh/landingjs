@@ -1,6 +1,6 @@
 /* ===== CSS VARIABLES & THEME ===== */
 :root {
-    /* Colors */
+    /* Colors - Dark Mode (Default) */
     --primary-color: #0ea5e9;
     --primary-dark: #0284c7;
     --secondary-color: #a8d5ff;
@@ -35,10 +35,3 @@
     --transition-slow: 0.5s ease;
 }
 
-/* Light Theme (if needed in future) */
-@media (prefers-color-scheme: light) {
-    :root {
-        --dark-text: #1e293b;
-        --light-text: #475569;
-    }
-}

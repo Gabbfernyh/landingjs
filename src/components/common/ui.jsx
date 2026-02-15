@@ -19,7 +19,7 @@ export function Card({
         duration-300 
         ${hoverClass}
         ${className}
-      `}
+        `}
             {...props}
         >
             {children}
@@ -36,14 +36,14 @@ export function Badge({ children, variant = "default" }) {
 
     return (
         <span className={`
-      inline-block 
-      px-3 
-      py-1 
-      rounded-full 
-      text-sm 
-      font-semibold 
-      border 
-      ${variants[variant]}
+        inline-block 
+        px-3 
+        py-1 
+        rounded-full 
+        text-sm 
+        font-semibold 
+        border 
+        ${variants[variant]}
     `}>
             {children}
         </span>

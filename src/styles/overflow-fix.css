@@ -5,184 +5,184 @@
    FOCO: Hero section mobile otimizado para UX/UI
 */
 @media (max-width: 768px) {
-/* ===== GLOBAL OVERFLOW PREVENTION ===== */
+    /* ===== GLOBAL OVERFLOW PREVENTION ===== */
 
-.container,
-.container-fluid {
-    overflow-x: hidden;
-    max-width: 100%;
-}
+    .container,
+    .container-fluid {
+        overflow-x: hidden;
+        max-width: 100%;
+    }
 
-/* ===== HERO SECTION - BASE ===== */
+    /* ===== HERO SECTION - BASE ===== */
 
-.hero-section {
-    width: 100%;
-    overflow: hidden;
-    padding: 2rem 0;
-}
-
-.hero-section .row {
-    width: 100%;
-}
-
-.hero-content {
-    padding: 0 1rem !important;
-    overflow: hidden;
-}
-
-.hero-title,
-.hero-description,
-.hero-subtitle {
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-}
-
-.hero-badge {
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    display: inline-block;
-}
-
-/* ===== HERO IMAGE ===== */
-
-.hero-visual {
-    width: 100%;
-    min-height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem;
-    overflow: hidden;
-}
-
-.hero-img {
-    max-width: 100%;
-    height: auto;
-    object-fit: contain;
-    display: block;
-}
-
-.hero-image {
-    width: 100%;
-    overflow: hidden;
-}
-
-/* ===== BUTTONS & FORMS ===== */
-
-.hero-buttons {
-    width: 100%;
-    flex-wrap: wrap;
-    gap: 1rem;
-}
-
-.btn-hero,
-.btn-outline-hero {
-    white-space: normal;
-    overflow: visible;
-    text-overflow: clip;
-    flex: 0 1 auto;
-}
-
-.hero-stats {
-    width: 100%;
-    flex-wrap: wrap;
-    overflow: hidden;
-}
-
-.stat-item {
-    min-width: 80px;
-    word-wrap: break-word;
-}
-
-.stat-value,
-.stat-label {
-    display: block;
-    word-wrap: break-word;
-}
-
-/* ===== CARDS ===== */
-
-.about-card,
-.service-card,
-.project-card,
-.testimonial-card {
-    width: 100%;
-    overflow: hidden;
-    word-wrap: break-word;
-}
-
-/* ===== FORMS ===== */
-
-.form-control,
-.form-select,
-textarea {
-    width: 100%;
-    overflow: hidden;
-}
-
-.input-group {
-    width: 100%;
-}
-
-/* ===== NAVBAR ===== */
-
-.navbar {
-    width: 100%;
-    overflow-x: hidden;
-}
-
-.navbar-brand {
-    max-width: 80%;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-/* ===== MEDIA QUERIES - MOBILE FIRST ===== */
-
-/* Tablets & Large Mobile (≤991.98px) */
-@media (max-width: 991.98px) {
     .hero-section {
-        padding: 1.5rem 0;
-        min-height: auto;
+        width: 100%;
+        overflow: hidden;
+        padding: 2rem 0;
+    }
+
+    .hero-section .row {
+        width: 100%;
     }
 
     .hero-content {
-        padding: 1rem !important;
+        padding: 0 1rem !important;
+        overflow: hidden;
     }
 
-    .ps-5 {
-        padding-left: 1rem !important;
+    .hero-title,
+    .hero-description,
+    .hero-subtitle {
+        word-wrap: break-word;
+        overflow-wrap: break-word;
     }
 
-    .hero-title {
-        font-size: 2rem;
+    .hero-badge {
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        display: inline-block;
     }
+
+    /* ===== HERO IMAGE ===== */
+
+    .hero-visual {
+        width: 100%;
+        min-height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+        overflow: hidden;
+    }
+
+    .hero-img {
+        max-width: 100%;
+        height: auto;
+        object-fit: contain;
+        display: block;
+    }
+
+    .hero-image {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    /* ===== BUTTONS & FORMS ===== */
 
     .hero-buttons {
-        flex-direction: column;
+        width: 100%;
+        flex-wrap: wrap;
         gap: 1rem;
     }
 
     .btn-hero,
     .btn-outline-hero {
-        width: 100%;
-    }
-
-    .hero-visual {
-        padding: 1rem;
-    }
-
-    .hero-img {
-        max-height: 300px;
+        white-space: normal;
+        overflow: visible;
+        text-overflow: clip;
+        flex: 0 1 auto;
     }
 
     .hero-stats {
-        justify-content: space-between;
-        gap: 1rem;
+        width: 100%;
+        flex-wrap: wrap;
+        overflow: hidden;
     }
-}
 
-/* Tablets & Mobile (≤768px) - MELHORADO PARA UX ===== */
+    .stat-item {
+        min-width: 80px;
+        word-wrap: break-word;
+    }
+
+    .stat-value,
+    .stat-label {
+        display: block;
+        word-wrap: break-word;
+    }
+
+    /* ===== CARDS ===== */
+
+    .about-card,
+    .service-card,
+    .project-card,
+    .testimonial-card {
+        width: 100%;
+        overflow: hidden;
+        word-wrap: break-word;
+    }
+
+    /* ===== FORMS ===== */
+
+    .form-control,
+    .form-select,
+    textarea {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .input-group {
+        width: 100%;
+    }
+
+    /* ===== NAVBAR ===== */
+
+    .navbar {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .navbar-brand {
+        max-width: 80%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    /* ===== MEDIA QUERIES - MOBILE FIRST ===== */
+
+    /* Tablets & Large Mobile (≤991.98px) */
+    @media (max-width: 991.98px) {
+        .hero-section {
+            padding: 1.5rem 0;
+            min-height: auto;
+        }
+
+        .hero-content {
+            padding: 1rem !important;
+        }
+
+        .ps-5 {
+            padding-left: 1rem !important;
+        }
+
+        .hero-title {
+            font-size: 2rem;
+        }
+
+        .hero-buttons {
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .btn-hero,
+        .btn-outline-hero {
+            width: 100%;
+        }
+
+        .hero-visual {
+            padding: 1rem;
+        }
+
+        .hero-img {
+            max-height: 300px;
+        }
+
+        .hero-stats {
+            justify-content: space-between;
+            gap: 1rem;
+        }
+    }
+
+    /* Tablets & Mobile (≤768px) - MELHORADO PARA UX ===== */
 
     .hero-section {
         padding: 1.5rem 0 2rem 0;
